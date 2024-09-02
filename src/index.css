@@ -108,3 +108,45 @@ header {
   border-radius: 100px;
 }
 
+/* Hero styling */
+
+.hero {
+  background-color: #3B4050;
+  padding: 2em;
+}
+
+.hero__header {
+  font-size: 4em;
+  color:#fff;
+  font-weight: bold;
+  margin-bottom: .7em;
+}
+
+.header--color{
+  color: #A59678;
+}
+
+.hero__text {
+  font-family:"Montserrat", sans-serif;
+  font-size: 24px;
+  color: #fff;
+  font-weight: lighter;
+  margin-bottom: 1.5em;
+}
+
+.btn {
+  padding: .75em .7em;
+  border-radius: 100px;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #A59678;
+  font-weight: bold;
+  font-size:1em;
+}
+
+.btn:hover {
+  opacity: .75;
+}
+
+

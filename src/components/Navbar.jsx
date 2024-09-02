@@ -4,11 +4,11 @@ import { useState } from 'react'
 
 export default function Navbar() {
 
-   const [show, setShow] = useState(true)
+   const [show, setShow] = useState(false)
 
    function toggle() {
     setShow(prevState => !prevState)
-   }
+   } 
     
     return (
     <header> 
