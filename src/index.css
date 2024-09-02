@@ -128,9 +128,10 @@ header {
 
 .hero__text {
   font-family:"Montserrat", sans-serif;
-  font-size: 24px;
-  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
   font-weight: lighter;
+  color: #fff;
   margin-bottom: .8em;
 }
 
@@ -152,6 +153,10 @@ header {
 
 /* features styling */
 
+main{
+  padding: 2em;
+}
+
 .features {
   padding: 3em 2em;
   background-color:#e6e6e6;
@@ -165,18 +170,60 @@ header {
 .features__header {
   color: #A59678;
   margin-bottom:1rem;
-  font-size: 30px;
+  font-size: 1.7em;
   font-weight: bold;
 }
 
 .features__text {
-  line-height: 1.25rem;
+  line-height: 1.5rem;
   font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+/* main styling */
+.main__header {
+  color: #A59678;
+  font-weight: bold;
+  font-size: 1.7em;
+  margin-top: 1.5rem;
+}
+
+.main__text {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main__image {
+  width: 100%;       
+  height: auto;       
+  max-height: 300px;   
+  object-fit: cover; 
+  margin-top: 1.5rem;
 }
 
 
 /* cards styling */
+.card {
+  background-color:#3B4050;
+  padding: 2em;
+  margin-top:1.5rem;
+  color: #fff;
+  text-align: center;
+}
 
+.card__header {
+font-weight:bold;
+font-size: 1.5rem;
+}
+
+.card__text {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  margin-top: 1rem;
+}
 
 
 

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Main() {
     return(
         <main>
-            <div>
+            <div className="container">
 
                 <div className="main__content">
                     <h3 className="main__header">
@@ -16,11 +16,14 @@ export default function Main() {
                     adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
                     dolore magna aliqua. Ut enim ad minim veniam.
                     </p>
+                    <div>
                     <img 
                         src="../public/images/img1.jpg" 
                         alt="picture of webpage diagrams drawn out" 
                         className="main__image"
                     />
+                    </div>
+                    
                     <p className="main__text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
