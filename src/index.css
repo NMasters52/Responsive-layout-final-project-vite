@@ -205,6 +205,10 @@ main{
 
 
 /* cards styling */
+.main__cards {
+  margin-top:3rem;
+}
+
 .card {
   background-color:#3B4050;
   padding: 2em;
