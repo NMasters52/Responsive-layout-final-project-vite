@@ -3,7 +3,7 @@ import React from 'react'
 export default function Main() {
     return(
         <main>
-            <div className="container">
+            <div className="container row">
 
                 <div className="main__content">
                     <h3 className="main__header">

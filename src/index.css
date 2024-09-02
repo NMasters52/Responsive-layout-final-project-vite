@@ -112,11 +112,11 @@ header {
 
 .hero {
   background-color: #3B4050;
-  padding: 2em;
+  padding: 3em;
 }
 
 .hero__header {
-  font-size: 4em;
+  font-size: 3.3em;
   color:#fff;
   font-weight: bold;
   margin-bottom: .7em;
@@ -128,7 +128,7 @@ header {
 
 .hero__text {
   font-family:"Montserrat", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 1.7rem;
   font-weight: lighter;
   color: #fff;
@@ -286,16 +286,102 @@ font-size: 1.5rem;
     gap: .7rem;
   }
 
-  .footer__lists {
-    display: flex;
-    gap: 2rem;
-  }
-
   .footer__article {
-    width: 40%;
+    width: 50%;
   }
 
   .footer__header--primary {
     font-size: 2rem;
   }
+}
+
+
+
+
+
+/* second break point */
+
+@media (min-width:1000px) {
+  /* util. class */
+ .row {
+  display: flex;
+  gap: 2rem;
+ }
+
+
+
+
+
+ /* hero */
+
+ .hero {
+  padding: 7em;
+ }
+
+ .hero__container{
+  gap: 5em;
+ }
+
+ .hero__header {
+  font-size: 5em;
+ }
+
+ .hero__content {
+  margin-top: auto;
+  margin-bottom: 3rem;
+ }
+
+
+
+
+ /* Features Styling */
+ .features {
+  padding: 7em;
+ }
+
+ .features__content {
+  margin-left: 1rem;
+  padding: .5rem;
+ }
+
+
+
+
+
+ /* Main styling */
+
+ .main__cards {
+  flex-direction: column;
+ }
+
+ .main__content {
+  padding: 2em;
+ }
+
+ .main__image {
+  width: 100%;       
+  height: auto;       
+  max-height: 500px;   
+  object-fit: cover; 
+  margin-top: 1.5rem;
+}
+
+.main__header {
+  font-size: 2.5rem;
+}
+
+
+
+
+
+/* footer styling */
+
+.footer__list-container {
+  display: flex;
+  gap: 5rem;
+}
+
+.footer__article {
+  width: 40%;
+}
 }

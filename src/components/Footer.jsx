@@ -7,7 +7,7 @@ export default function Footer() {
 
                 <h2 class="footer__header--primary">Just scratching the surface</h2>
 
-                <div class="footer__lists">
+                <div class="footer__lists row">
 
                     <div class="footer__list footer__article">
                         <h3 class="footer__subheader">About our company</h3>
@@ -16,33 +16,35 @@ export default function Footer() {
                         </p>
                     </div>
 
-                    <div class="footer__list">
-                        <h3 class="footer__subheader">Getting Around</h3>
-                        <ul class="footer__directory-list">
-                        <li class="footer__directory-item">Home</li>
-                        <li class="footer__directory-item">About</li>
-                        <li class="footer__directory-item">Contact</li>
-                        </ul>
-                    </div>
+                    <div className="footer__list-container">
+                        <div class="footer__list">
+                            <h3 class="footer__subheader">Getting Around</h3>
+                            <ul class="footer__directory-list">
+                            <li class="footer__directory-item">Home</li>
+                            <li class="footer__directory-item">About</li>
+                            <li class="footer__directory-item">Contact</li>
+                            </ul>
+                        </div>
 
-                    <div class="footer__list">
-                        <h3 class="footer__subheader">Other Things</h3>
-                        <ul class="footer__directory-list">
-                        <li class="footer__directory-item">Lorem ipsum</li>
-                        <li class="footer__directory-item">dolor</li>
-                        <li class="footer__directory-item">sit amet</li>
-                        <li class="footer__directory-item">consectetur</li>
-                        </ul>
-                    </div>
+                        <div class="footer__list">
+                            <h3 class="footer__subheader">Other Things</h3>
+                            <ul class="footer__directory-list">
+                            <li class="footer__directory-item">Lorem ipsum</li>
+                            <li class="footer__directory-item">dolor</li>
+                            <li class="footer__directory-item">sit amet</li>
+                            <li class="footer__directory-item">consectetur</li>
+                            </ul>
+                        </div>
 
-                    <div class="footer__list">
-                        <h3 class="footer__subheader">And More</h3>
-                        <ul class="footer__directory-list">
-                        <li class="footer__directory-item">Lorem ipsum</li>
-                        <li class="footer__directory-item">dolor</li>
-                        <li class="footer__directory-item">sit amet</li>
-                        <li class="footer__directory-item">consectetur</li>
-                        </ul>
+                        <div class="footer__list">
+                            <h3 class="footer__subheader">And More</h3>
+                            <ul class="footer__directory-list">
+                            <li class="footer__directory-item">Lorem ipsum</li>
+                            <li class="footer__directory-item">dolor</li>
+                            <li class="footer__directory-item">sit amet</li>
+                            <li class="footer__directory-item">consectetur</li>
+                            </ul>
+                        </div>
                     </div>
 
                 </div>

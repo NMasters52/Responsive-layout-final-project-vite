@@ -3,7 +3,7 @@ import React from 'react'
 export default function Features() {
     return(
         <section className="features">
-            <div className="container">
+            <div className="container row">
                 <div className="features__content">
                     <h1 className="features__header">
                     Mobile-first
