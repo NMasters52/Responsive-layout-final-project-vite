@@ -229,5 +229,53 @@ font-size: 1.5rem;
   margin-top: 1rem;
 }
 
+/* footer styling */
+
+.footer {
+  background-color: #3B4050;
+  padding: 2em;
+  /* text-align: center; */
+}
+
+.footer__header--primary {
+  font-size: 1.5rem;
+  color: #ffff;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.footer__lists {
+  padding: 1em;
+}
+
+.footer__list {
+  margin-top: 3rem;
+}
+
+.footer__subheader {
+  font-size: 1.3rem;
+  color: #A59678;
+  margin-top: 1.2rem;
+}
+
+.footer__text {
+  color: #fff;
+  margin-top: .8rem;
+  font-weight: 100;
+  line-height: 1.3rem;
+}
+
+.footer__directory-list {
+  margin-top: .7rem;
+}
+
+.footer__directory-item {
+  margin-top: .8rem;
+  color: #fff;
+  font-weight: 100;
+}
+
+
 
 
