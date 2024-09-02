@@ -1,19 +1,25 @@
 import {FaBars, FaTimes} from 'react-icons/fa'
 import React from 'react'
+import { useState } from 'react'
 
 export default function Navbar() {
 
+   const [show, setShow] = useState(true)
+
+   function toggle() {
+    setShow(prevState => !prevState)
+   }
     
     return (
-        <header> 
-        <div className="container row">
-            <button className="nav-toggle" aria-label="open navigation">
-                <span className="hamburger"><FaTimes/></span>
+    <header> 
+        <div className="container row" >
+            <button onClick={toggle} className="nav-toggle" aria-label="open navigation">
+                <span className="hamburger">{show ? <FaTimes/> : <FaBars />}</span>
             </button>
             <a className="logo" href="#">
                 <img src="../public/images/logo.svg" alt="conquering responsive layouts" />
             </a>
-            <nav className="nav">
+            <nav className={`nav ${show ? 'show' : 'hidden'}`}>
                 <ul className="nav__list nav__list--primary">
                     <li className="nav__item"><a href="#" className="nav__link">Home</a></li>
                     <li className="nav__item"><a href="#" className="nav__link">About</a></li>
