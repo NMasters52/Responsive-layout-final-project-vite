@@ -69,8 +69,8 @@ header {
   border-radius: 10px;
   left: 0;
   position: absolute;
-  width: 3em;
-  height: 3em;
+  width: 2.5em;
+  height: 2.5em;
 }
 
 .nav.hidden {
@@ -279,3 +279,23 @@ font-size: 1.5rem;
 
 
 
+/* First break point 700px*/
+@media (min-width:700px) {
+  .main__cards {
+    display: flex;
+    gap: .7rem;
+  }
+
+  .footer__lists {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .footer__article {
+    width: 40%;
+  }
+
+  .footer__header--primary {
+    font-size: 2rem;
+  }
+}
