@@ -131,7 +131,7 @@ header {
   font-size: 24px;
   color: #fff;
   font-weight: lighter;
-  margin-bottom: 1.5em;
+  margin-bottom: .8em;
 }
 
 .btn {
@@ -142,7 +142,7 @@ header {
   color: #fff;
   background-color: #A59678;
   font-weight: bold;
-  font-size:1em;
+  font-size: 1em;
 }
 
 .btn:hover {
