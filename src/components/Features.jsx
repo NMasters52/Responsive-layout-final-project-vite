@@ -1,14 +1,14 @@
 import React from 'react'
 
-export default function Content() {
+export default function Features() {
     return(
-        <section>
+        <section className="features">
             <div className="container">
-                <div className="section__content">
-                    <h1 className="section__header">
+                <div className="features__content">
+                    <h1 className="features__header">
                     Mobile-first
                     </h1>
-                    <p className="section__text">
+                    <p className="features__text">
                     Lorem ipsum dolor sit amet, 
                     consectetur adipiscing elit, sed do 
                     eiusmod tempor incididunt ut 
@@ -16,11 +16,11 @@ export default function Content() {
                     enim ad minim veniam.
                     </p>
                 </div>
-                <div className="section__content">
-                    <h1 className="section__header">
-                    Mobile-first
+                <div className="features__content">
+                    <h1 className="features__header">
+                    Efficient
                     </h1>
-                    <p className="section__text">
+                    <p className="features__text">
                     Lorem ipsum dolor sit amet, 
                     consectetur adipiscing elit, sed do 
                     eiusmod tempor incididunt ut 
@@ -28,11 +28,11 @@ export default function Content() {
                     enim ad minim veniam.
                     </p>
                 </div>
-                <div className="section__content">
-                    <h1 className="section__header">
-                    Mobile-first
+                <div className="features__content">
+                    <h1 className="features__header">
+                    Done Right 
                     </h1>
-                    <p className="section__text">
+                    <p className="features__text">
                     Lorem ipsum dolor sit amet, 
                     consectetur adipiscing elit, sed do 
                     eiusmod tempor incididunt ut 
