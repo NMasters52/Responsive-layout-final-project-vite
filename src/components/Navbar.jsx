@@ -18,7 +18,7 @@ export default function Navbar() {
                 <span className="hamburger">{show ? <FaTimes/> : <FaBars />}</span>
             </button>
             <a className="logo" href="#">
-                <img src="../public/images/logo.svg" alt="conquering responsive layouts" />
+                <img src="/images/logo.svg" alt="conquering responsive layouts" />
             </a>
             <nav className={`nav ${show ? 'show' : 'hidden'}`}>
                 <ul className="nav__list nav__list--primary nav--row">
