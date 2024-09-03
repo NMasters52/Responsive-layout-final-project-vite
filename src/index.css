@@ -57,6 +57,7 @@ font-family: "Oswald", sans-serif; */
 }
 
 
+
 header {
   background: #2E323F;
   padding: 1em 0;
@@ -71,6 +72,7 @@ header {
   position: absolute;
   width: 2.5em;
   height: 2.5em;
+  align-items: center;
 }
 
 .nav.hidden {
@@ -86,6 +88,7 @@ header {
   margin: 0;
   padding: 0;
 }
+
 
 .nav__link {
   text-decoration: none;
