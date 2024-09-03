@@ -18,7 +18,7 @@ export default function Main() {
                     </p>
                     <div>
                     <img 
-                        src="../public/images/img1.jpg" 
+                        src="/images/img1.jpg" 
                         alt="picture of webpage diagrams drawn out" 
                         className="main__image"
                     />
