@@ -9,8 +9,8 @@ export default function Footer() {
 
                 <div class="footer__lists footer__list--row">
 
-                    <div class="footer__list footer__article">
-                        <h3 class="footer__subheader">About our company</h3>
+                    <div class="footer__article">
+                        <h3 class="footer__article--subheader">About our company</h3>
                         <p class="footer__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                         </p>

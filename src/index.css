@@ -144,6 +144,7 @@ header {
   background-color: #A59678;
   font-weight: bold;
   font-size: 1em;
+  margin-top: 1rem;
 }
 
 .btn:hover {
@@ -170,21 +171,22 @@ main{
 .features__header {
   color: #A59678;
   margin-bottom:1rem;
-  font-size: 1.7em;
+  font-size: 1.9em;
   font-weight: bold;
 }
 
 .features__text {
-  line-height: 1.5rem;
+  line-height: 1.7rem;
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  font-weight: 300;
 }
 
 /* main styling */
 .main__header {
   color: #A59678;
   font-weight: bold;
-  font-size: 1.7em;
+  font-size: 2rem;
   margin-top: 1.5rem;
 }
 
@@ -207,6 +209,9 @@ main{
 /* cards styling */
 .main__cards {
   margin-top:3rem;
+  padding: 2rem;
+  justify-content: space-around;
+  max-width: 100%;
 }
 
 .card {
@@ -234,46 +239,55 @@ font-size: 1.5rem;
 .footer {
   background-color: #3B4050;
   padding: 2em;
-  /* text-align: center; */
 }
 
 .footer__header--primary {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #ffff;
   font-weight: bold;
-  text-align: center;
   margin-top: 1rem;
 }
 
-.footer__lists {
-  padding: 1em;
+.footer__article {
+  align-items: center;
 }
 
 .footer__list {
   margin-top: 3rem;
+  text-align: center;
+}
+
+.footer__article--subheader{
+  font-size: 1.5rem;
+  color: #A59678;
+  margin-top: 3rem;
 }
 
 .footer__subheader {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #A59678;
   margin-top: 1.2rem;
 }
 
 .footer__text {
   color: #fff;
-  margin-top: .8rem;
+  margin-top: 1rem;
   font-weight: 100;
-  line-height: 1.3rem;
+  line-height: 1.7rem;
+  font-size: 1.2rem;
 }
 
-.footer__directory-list {
-  margin-top: .7rem;
-}
 
 .footer__directory-item {
   margin-top: .8rem;
   color: #fff;
   font-weight: 100;
+  padding: .5rem;
+  border-radius: 50px;
+}
+
+.footer__directory-item:hover {
+  background-color: rgba(165, 150, 120, .5);
 }
 
 
@@ -282,9 +296,21 @@ font-size: 1.5rem;
 /* First break point 700px*/
 @media (min-width:700px) {
 
-  /* util. class */
+  .hero{
+    padding: 5em;
+  }
+
+  .features {
+    padding: 5em;
+  }
+
+  main {
+    padding: 5em;
+  }
+  
  .footer__list--row {
   display: flex;
+  align-items: flex-start;
   gap: 2rem;
  }
   .main__cards {
@@ -292,12 +318,20 @@ font-size: 1.5rem;
     gap: .7rem;
   }
 
+
+  /* footer styling */
+
   .footer__article {
     width: 50%;
+    margin-top: 3rem;
   }
 
-  .footer__header--primary {
-    font-size: 2rem;
+  .footer__article--subheader{
+    margin-top: 1rem;
+  }
+
+  .footer__header--primary{
+    text-align: center;
   }
 }
 
@@ -322,14 +356,24 @@ font-size: 1.5rem;
   width: 100%;
 }
 
-.nav__list--primary {
-  margin-left: auto;
+.nav--row {
+  display: flex;
 }
 
-.nav__list--secondary {
-  margin-left: auto;
+
+header {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1000; 
 }
-                                           
+
+.nav__list--primary {
+  margin-left: auto;
+  margin-bottom: 0rem;
+}
+
+                                
  .nav-toggle {
   visibility: hidden;
  }
@@ -342,33 +386,37 @@ font-size: 1.5rem;
   display: flex;
 }
 
-.nav__row--large {
-  display: flex;
-}
-
-.nav__list--primary {
-  margin-bottom: 0rem;
-}
 
 .nav__item {
   margin-top: 0rem;
   margin-right:2rem;
   text-transform: uppercase;
 }
+
+.nav__link {
+  padding: .2em .75em;
+  border-radius: 100px;
+}
+
+
+.nav__link:hover {
+  background-color: rgba(165, 150, 120, .5);
+}
  
 
  /* hero */
 
  .hero {
-  padding: 7em;
+  padding: 10em 12em;
  }
 
  .hero__container{
-  gap: 5em;
+  padding: 3em;
  }
 
  .hero__header {
   font-size: 5em;
+  margin-right: 3rem;
  }
 
  .hero__content {
@@ -376,31 +424,41 @@ font-size: 1.5rem;
   margin-bottom: 3rem;
  }
 
+ .hero__text {
+  font-size: 1.5rem;
+}
 
 
 
- /* Features Styling */
+ /* features Styling */
+
  .features {
-  padding: 7em;
+  padding: 10em 7em;
  }
 
  .features__content {
-  margin-left: 1rem;
-  padding: .5rem;
+  padding: 1rem;
+  justify-content: space-between;
  }
 
-
+.footer__article--subheader{
+  margin-top: 1rem;
+}
 
 
 
  /* Main styling */
+
+ main {
+  padding: 6em;
+ }
 
  .main__cards {
   flex-direction: column;
  }
 
  .main__content {
-  padding: 2em;
+  padding: 1em;
  }
 
  .main__image {
@@ -427,11 +485,12 @@ font-size: 1.5rem;
 }
 
 .footer__article {
-  width: 45%;
-  
+  width: 30%;
+  margin-right: 7rem;
 }
 
 .footer__header--primary {
   font-size: 3rem;
+  text-align: center;
 }
 }
