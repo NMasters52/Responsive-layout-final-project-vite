@@ -7,7 +7,7 @@ export default function Footer() {
 
                 <h2 class="footer__header--primary">Just scratching the surface</h2>
 
-                <div class="footer__lists row">
+                <div class="footer__lists footer__list--row">
 
                     <div class="footer__list footer__article">
                         <h3 class="footer__subheader">About our company</h3>
@@ -16,7 +16,7 @@ export default function Footer() {
                         </p>
                     </div>
 
-                    <div className="footer__list-container">
+                    <div className="footer__list-container footer__list--row">
                         <div class="footer__list">
                             <h3 class="footer__subheader">Getting Around</h3>
                             <ul class="footer__directory-list">

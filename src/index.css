@@ -281,6 +281,12 @@ font-size: 1.5rem;
 
 /* First break point 700px*/
 @media (min-width:700px) {
+
+  /* util. class */
+ .footer__list--row {
+  display: flex;
+  gap: 2rem;
+ }
   .main__cards {
     display: flex;
     gap: .7rem;
@@ -307,10 +313,6 @@ font-size: 1.5rem;
   display: flex;
   gap: 2rem;
  }
-
-
-
-
 
  /* hero */
 
@@ -378,10 +380,15 @@ font-size: 1.5rem;
 
 .footer__list-container {
   display: flex;
-  gap: 5rem;
+  gap: 7rem;
 }
 
 .footer__article {
-  width: 40%;
+  width: 45%;
+  
+}
+
+.footer__header--primary {
+  font-size: 3rem;
 }
 }
