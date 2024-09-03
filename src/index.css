@@ -314,6 +314,49 @@ font-size: 1.5rem;
   gap: 2rem;
  }
 
+
+ /* nav styling */
+
+ .nav{
+  align-items: center;
+  width: 100%;
+}
+
+.nav__list--primary {
+  margin-left: auto;
+}
+
+.nav__list--secondary {
+  margin-left: auto;
+}
+                                           
+ .nav-toggle {
+  visibility: hidden;
+ }
+
+ .nav.hidden {
+  display: flex;
+}
+
+.nav.show {
+  display: flex;
+}
+
+.nav__row--large {
+  display: flex;
+}
+
+.nav__list--primary {
+  margin-bottom: 0rem;
+}
+
+.nav__item {
+  margin-top: 0rem;
+  margin-right:2rem;
+  text-transform: uppercase;
+}
+ 
+
  /* hero */
 
  .hero {

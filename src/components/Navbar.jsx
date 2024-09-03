@@ -20,12 +20,12 @@ export default function Navbar() {
                 <img src="../public/images/logo.svg" alt="conquering responsive layouts" />
             </a>
             <nav className={`nav ${show ? 'show' : 'hidden'}`}>
-                <ul className="nav__list nav__list--primary">
+                <ul className="nav__list nav__list--primary nav__row--large">
                     <li className="nav__item"><a href="#" className="nav__link">Home</a></li>
                     <li className="nav__item"><a href="#" className="nav__link">About</a></li>
                     <li className="nav__item"><a href="#" className="nav__link">Contact</a></li>
                 </ul>
-                <ul className="nav__list nav__list--secondary">
+                <ul className="nav__list nav__list--secondary nav__row--large">
                     <li className="nav__item"><a href="#" className="nav__link">Sign In</a></li>
                     <li className="nav__item"><a href="#" className="nav__link nav__link--button">Sign up</a></li>
                 </ul>
