@@ -14,7 +14,7 @@ Check out the live version of the project here: [Live Demo](https://main--nmresp
 
 The project was based on a wireframe provided as part of the course. The design required specific breakpoints to ensure the layout adjusts properly across devices.
 
-You can view the wireframe and design specifications [Download and View the PDF](path/to/final-challenge-specs.pdf)
+You can view the wireframe and design specifications [Download and View the PDF](./final-challenge-specs.pdf)
 
 ## Technologies Used
 
